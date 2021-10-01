@@ -1,18 +1,27 @@
 body {
-  background-color: #D8E2DC;
-  color: #957DAD;
+  background-color: #F9B6EE;
+  color: #000000;
   font-weight: 200;
-  font-family: "Courirt New", "Lucida Console", "Monaco";
+  font-family: "Times New Roman", Times, serif;
   font-size: medium;
+
 }
-h1 { background-color: #FFEFD8;
+h1 { background-color: #A7E9ED;
 }
-h2 { background-color: #FFCCCB;
+h2 { background-color: #A7E9ED;
 }
-h3 { background-color: #FFDDE4;
+h3 { background-color: #A7E9ED;
 }
-h4 { background-color: #FFE9EE;
+h4 { background-color: #A7E9ED;
 }
+a { background-color: #CD9EE2;
+}
+
+
 #link {
-  color: #000000
+  color: #A7E9ED
+}
+
+#linktwo {
+  color: #A7E9ED
 }
