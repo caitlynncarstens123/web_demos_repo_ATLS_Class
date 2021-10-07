@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>javascript</title>
+</head>
+<body>
+    <h1> Penny's Website </h1>
+    <img  src="assets/1.jpeg">
+    <hr>
+    <button id='b1'>Click this to change site colors to Penny's favorite color</button>
+    <button id='b2'>Click this to get to know Penny</button>
+
+    <script>
+        document.getElementById('b1').addEventListener('click',function(){
+          document.body.style.backgroundColor =  '#FF69B4';
+        });
+        document.getElementById('b2').addEventListener('click', clickImage);
+        function  clickImage() {
+          window.alert('This is my dog and her name is Penny! She loves food and long walks. I love her so much and if you ever meet her you will too!');
+        }
+    </script>
+
+</body>
+</html>
