@@ -1,0 +1,12 @@
+body {
+  background-color: #F9B6EE;
+  color: #000000;
+  font-weight: 200;
+  font-family: "Times New Roman", Times, serif;
+  font-size: medium;
+}
+img {
+  max-width: 30%;
+  height: auto;
+  border: 3px solid black;  
+}
