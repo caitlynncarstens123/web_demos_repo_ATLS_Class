@@ -1,4 +1,7 @@
 body {
+  font-size: 16px;
+  width: 600px;
+  margin: 25px auto;
   background-color: #ED9BC7;
   color: #000000;
   font-weight: 200;
@@ -6,13 +9,19 @@ body {
   text-align: center;
 
 }
-img {
-  max-width: 30%;
 
+button {
+  color: black;
+  display: inline;
+  margin: 30px;
+  padding: 7px 35px;
+  font: 300 150% langdon;
+  background: white;
   border: 3px solid black;
+  cursor: pointer;
 }
 
-button.days{
-    border-radius: 100px;
-    text-align: center;
+img {
+  max-width: 30%;
+  border: 3px solid black;
 }
