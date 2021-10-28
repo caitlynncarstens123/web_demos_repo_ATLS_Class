@@ -10,7 +10,19 @@ body {
 
 }
 
-button {
+a {
+  color: black;
+  display: inline;
+  margin: 20px;
+  padding: 10px 35px;
+  font: 300 150% langdon;
+  background: white;
+  border: 3px solid black;
+  cursor: pointer;
+  
+}
+
+Button {
   color: black;
   display: inline;
   margin: 30px;
@@ -22,6 +34,6 @@ button {
 }
 
 img {
-  max-width: 30%;
+  max-width: 40%;
   border: 3px solid black;
 }
