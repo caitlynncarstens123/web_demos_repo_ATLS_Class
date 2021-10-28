@@ -36,3 +36,22 @@ img {
   max-width: 40%;
   border: 3px solid black;
 }
+
+.float-container {
+  border: 3px solid #fff;
+  padding: 20px
+}
+
+.float1-child {
+  width:50%;
+  float: right;
+  padding: 20px;
+  border:2px colid black;
+}
+
+.float2-child {
+  width:50%;
+  float: left;
+  padding: 10px;
+  border:2px colid black;
+}
