@@ -7,23 +7,15 @@
 <body>
   <h1> Weekly Menu  </h1>
 
-<div class="float-container">
-
-  <div class="float1-child">
   <img  src="assets/Monday.jpeg" alt="Monday">
-  </div>
 
-  <div class="float2-child">
-    <h2> Monday: </h2>
-    <p> 1. Go on a walk </p>
-    <p> 2. Take a bath </p>
-    <p> 3. Read a book</p>
-    <p> 4. Clean my house </p>
-  </div>
-</div>
+    <h1 id="new">Mondays self-care selections are...</h1>
+    <button id="newquote">Click through using this button to see self-care menu options for today!</button>
+
 
   <button id='b1' class = 'quote'> Motivation Monday Quote (Click here) </button>
 
+<div class="links">
   <a id='b2' class= 'days' href="index.html"> Monday </a>
 
   <a id='b3' class= 'days' href="index2.html"> Tuesday </a>
@@ -37,8 +29,27 @@
   <a id='b7' class= 'days' href="index6.html"> Saturday </a>
 
   <a id='b8' class= 'days' href="index7.html"> Sunday </a>
+  <div class="link">
+
+  </div>
+</div>
 
   <script>
+  const quotes = ["1. See my mom.", "2. Go to gym.", "3. Do HW.", "4. Clean my house.", "Please choose from those four options. (If you need to see them again just re-click the button)"];
+  let quotecount = 0;
+
+  document.getElementById("newquote").addEventListener("click", buttonClicked);
+
+  function buttonClicked() {
+    document.getElementById("new").innerHTML=quotes[quotecount];
+    console.log(quotes[quotecount]);
+    if(quotecount>3){
+      quotecount = 0;
+    }else{
+    quotecount++;
+  }
+
+  }
 
       document.getElementById('b1').addEventListener('click', clickImage);
       function  clickImage() {

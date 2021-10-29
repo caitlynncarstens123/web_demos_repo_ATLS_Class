@@ -9,29 +9,47 @@
 
   <img  src="assets/Wednesday.jpeg" alt="Wednesday">
 
-  <h2> Wednesday: </h2>
-  <p> 1. Go on a walk </p>
-  <p> 2. Get coffee at Starbucks </p>
-  <p> 3. Go yoga class</p>
-  <p> 4. Go on a run</p>
+  <h1 id="new">Wednesdays self-care selections are...</h1>
+  <button id="newquote">Click through using this button to see self-care menu options for today!</button>
+
 
   <button id='b1' class = 'quote'> Motivation Wednesday Quote (Click here) </button>
 
-  <a id='b2' class= 'days' href="index.html"> Monday </a>
+  <div class="links">
+    <a id='b2' class= 'days' href="index.html"> Monday </a>
 
-  <a id='b3' class= 'days' href="index2.html"> Tuesday </a>
+    <a id='b3' class= 'days' href="index2.html"> Tuesday </a>
 
-  <a id='b4' class= 'days' href="index3.html"> Wednesday </a>
+    <a id='b4' class= 'days' href="index3.html"> Wednesday </a>
 
-  <a id='b5' class= 'days' href="index4.html"> Thursday </a>
+    <a id='b5' class= 'days' href="index4.html"> Thursday </a>
 
-  <a id='b6' class= 'days' href="index5.html"> Friday </a>
+    <a id='b6' class= 'days' href="index5.html"> Friday </a>
 
-  <a id='b7' class= 'days' href="index6.html"> Saturday </a>
+    <a id='b7' class= 'days' href="index6.html"> Saturday </a>
 
-  <a id='b8' class= 'days' href="index7.html"> Sunday </a>
+    <a id='b8' class= 'days' href="index7.html"> Sunday </a>
+    <div class="link">
+
+    </div>
+  </div>
 
   <script>
+  const quotes = ["1. Play a game.", "2. Do a craft.", "3. Go to the zoo.", "4. Play with my dog.", "Please choose from those four options. (If you need to see them again just re-click the button)"];
+  let quotecount = 0;
+
+  document.getElementById("newquote").addEventListener("click", buttonClicked);
+
+  function buttonClicked() {
+    document.getElementById("new").innerHTML=quotes[quotecount];
+    console.log(quotes[quotecount]);
+    if(quotecount>3){
+      quotecount = 0;
+    }else{
+    quotecount++;
+  }
+
+  }
 
       document.getElementById('b1').addEventListener('click', clickImage);
       function  clickImage() {

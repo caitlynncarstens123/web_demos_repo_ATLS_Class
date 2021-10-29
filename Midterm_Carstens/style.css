@@ -2,56 +2,34 @@ body {
   font-size: 16px;
   width: 600px;
   margin: 25px auto;
-  background-color: #ED9BC7;
-  color: #000000;
+  background-color: #FFCAE5;
+  color: black;
   font-weight: 200;
   font-family: "Times New Roman", Times, serif;
   text-align: center;
-
 }
 
-a {
-  color: black;
-  display: inline;
-  margin: 20px;
-  padding: 10px 35px;
-  font: 300 150% langdon;
-  background: white;
-  border: 3px solid black;
-  cursor: pointer;
-}
+.links a {
+     background: white;
+     color: black;
+     font-family: "Times New Roman", Times, serif;
+     font-size: 15px;
+     text-decoration: none;
+     padding: 15px 15px;
+     border: 1px solid #FF77BC;
+ }
+
 
 Button {
   color: black;
-  display: inline;
   margin: 30px;
   padding: 7px 35px;
   font: 300 150% langdon;
   background: white;
-  border: 3px solid black;
-  cursor: pointer;
+  border: 2px solid #FF77BC;
 }
 
 img {
   max-width: 40%;
-  border: 3px solid black;
-}
-
-.float-container {
-  border: 3px solid #fff;
-  padding: 20px
-}
-
-.float1-child {
-  width:50%;
-  float: right;
-  padding: 20px;
-  border:2px colid black;
-}
-
-.float2-child {
-  width:50%;
-  float: left;
-  padding: 10px;
-  border:2px colid black;
+  border: 3px solid #FF77BC;
 }
