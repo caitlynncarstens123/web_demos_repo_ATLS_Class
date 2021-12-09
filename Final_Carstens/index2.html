@@ -8,15 +8,47 @@
   <div class="links">
     <a id='b2' class= 'links' href="index3.html"> About Me </a>
 
-    <a id='b3' class= 'links' href="index2.html"> Coding Projects </a>
+    <a id='b3' class= 'links' href="index2.html"> Projects </a>
 
     <a id='b4' class= 'links' href="https://www.linkedin.com/in/caitlyncarstens/"> LinkedIn </a>
+
+    <a id='b5' class= 'links' href="index4.html"> Contact Me </a>
 
     <div class="link">
 
     </div>
   </div>
   <h1> My Projects </h1>
+
+  <section>
+  <a href = "" id="new">Click the button as many time as you wish to get the links to my coded websites. </a>
+  <button id="newlink">Get a new link</button>
+  </section>
+
+  <script>
+    const link = [href="https://caitlynncarstens123.github.io/web_demos_repo_ATLS_Class/Encyclopedia_Page/",
+    href="https://caitlynncarstens123.github.io/web_demos_repo_ATLS_Class/Week_6_Tam_Web/index2.html",
+    href="https://caitlynncarstens123.github.io/web_demos_repo_ATLS_Class/Week_7_Tam_Carstens/index7.html",
+    href="https://caitlynncarstens123.github.io/web_demos_repo_ATLS_Class/Midterm_Carstens/index.html"];
+    let linkcount = 0;
+
+    document.getElementById("newlink").addEventListener("click", buttonClicked);
+
+    function buttonClicked() {
+      document.getElementById("new").innerHTML=link[linkcount];
+        document.getElementById("new").setAttribute("href", link[linkcount]);
+      console.log(link[linkcount]);
+      if(linkcount>2){
+        linkcount = 0;
+      }else{
+      linkcount++;
+    }
+
+    }
+  </script>
+
+  <hr>
+
   <div class="links">
     <a id='b4' class= 'links' class= 'links' href="index.html"> Return to Main Page </a>
     <div class="link">

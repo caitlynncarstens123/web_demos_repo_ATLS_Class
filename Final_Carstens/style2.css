@@ -8,12 +8,12 @@ div.about {
   width: 100%;
   background-color: #CBC3E3
 }
-div.Fav {
+div.skills {
   font-size: 2.5em;
   width: 60%;
   background-color: #A9CCE3
 }
-div.Goals {
+div.Experience {
   font-size: 2em;
   width: 50%;
   background-color: #85C1E9
@@ -30,37 +30,33 @@ img {
   width: 150px;
   opacity: 0.5;
 }
-img.LinkedIn1 {
-  opacity: 0.1;
-}
-img.LinkedIn2 {
-  opacity: 0.2;
-}
-img.LinkedIn3 {
-  opacity: 0.3;
-}
-img.LinkedIn4 {
-  opacity: 0.4;
-}
-img.LinkedIn5 {
-  opacity: 0.5;
-}
-img.LinkedIn6 {
-  opacity: 0.7;
-}
-img.LinkedIn7 {
-  opacity: 0.8;
-}
-img.LinkedIn8 {
-  opacity: 1;
-}
-
-.links a {
-     background: white;
-     color: #99621B;
-     font-family: "Times New Roman", Times, serif;
-     font-size: 15px;
-     text-decoration: none;
-     padding: 4px 15px;
-     border: 1px solid #A68D83;
+ body {
+   font-size: 16px;
+   width: 600px;
+   margin: 25px auto;
+   background-color: #FFF5F2;
+   color: #99621B;
+   font-weight: 200;
+   font-family: "Times New Roman", Times, serif;
+   text-align: center;
  }
+
+ .links a {
+      background: white;
+      color: #99621B;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 15px;
+      text-decoration: none;
+      padding: 4px 15px;
+      border: 1px solid #A68D83;
+  }
+
+
+ img {
+   max-width: 40%;
+   border: 3px solid #A68D83;
+ }
+#new {
+  color: #99621B;
+  font-family: "Times New Roman", Times, serif;
+}

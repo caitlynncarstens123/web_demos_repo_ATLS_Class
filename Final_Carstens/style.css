@@ -8,6 +8,7 @@ body {
   font-weight: 200;
   font-family: "Times New Roman", Times, serif;
   text-align: center;
+  align-content: center
 }
 
 .links a {
@@ -25,3 +26,11 @@ img {
   max-width: 40%;
   border: 3px solid #A68D83;
 }
+
+div.intro {
+  font-size: 2em;
+  width: 50%;
+  background-color: #A68D83;
+  padding: 4px 15px;
+  margin-left: 25%;
+  margin-right: 25%
